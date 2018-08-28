@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "X-Authy-API-Key": "my-secret-token"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.authy.com/protected/json/sms/0000042?force=true"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"success\":true,\"message\":\"SMS token was sent\",\"cellphone\":\"+42-XXX-XXX-XX42\"}",
+      "headers": {
+        "Server": "nginx/1.4.6 (Ubuntu)",
+        "Date": "Mon, 27 Aug 2018 15:22:08 GMT",
+        "Content-Type": "application/json;charset=utf-8",
+        "Content-Length": "78",
+        "Connection": "keep-alive",
+        "Status": "200 OK",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

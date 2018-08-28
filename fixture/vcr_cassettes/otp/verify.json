@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "X-Authy-API-Key": "my-secret-token"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.authy.com/protected/json/verify/5030592/0000042"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"message\":\"Token is valid.\",\"token\":\"is valid\",\"success\":\"true\",\"device\":{\"id\":null,\"os_type\":\"sms\",\"registration_date\":null,\"registration_method\":null,\"registration_country\":null,\"registration_region\":null,\"registration_city\":null,\"country\":null,\"region\":null,\"city\":null,\"ip\":null,\"last_account_recovery_at\":null,\"last_sync_date\":null}}",
+      "headers": {
+        "Server": "nginx/1.4.6 (Ubuntu)",
+        "Date": "Mon, 27 Aug 2018 15:24:10 GMT",
+        "Content-Type": "application/json;charset=utf-8",
+        "Content-Length": "345",
+        "Connection": "keep-alive",
+        "Status": "200 OK",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

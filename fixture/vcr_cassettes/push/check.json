@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "X-Authy-API-Key": "my-secret-token"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.authy.com/onetouch/json/approval_requests/0d60540f-f7e8-49db-81ff-c41ccb6725c8"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"approval_request\":{\"status\":\"approved\"},\"success\":true}",
+      "headers": {
+        "Server": "nginx/1.4.6 (Ubuntu)",
+        "Date": "Mon, 27 Aug 2018 14:54:40 GMT",
+        "Content-Type": "application/json;charset=utf-8",
+        "Content-Length": "880",
+        "Connection": "keep-alive",
+        "Status": "200 OK",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
