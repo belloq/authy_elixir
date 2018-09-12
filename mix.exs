@@ -24,7 +24,7 @@ defmodule Authy.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 1.3"},
-      {:poison, "~> 4.0"},
+      {:poison, "~> 3.0 or ~> 4.0"},
       {:ex_doc, "~> 0.18.0", only: :dev},
       {:exvcr, "~> 0.10", only: :test}
     ]
